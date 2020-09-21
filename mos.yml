@@ -1,0 +1,44 @@
+author: Marcelo Buregio <marceloburegio@gmail.com>
+description: Arduino GxEPD E-Paper display library (version 3.1.0)
+type: lib
+version: 1.0
+
+sources:
+  - src
+  - src/GxIO
+  - src/GxIO/GxIO_SPI
+  - src/GxGDE0213B1
+  - src/GxGDEH029A1
+  - src/GxGDEH0154D67
+  - src/GxGDEH0213B72
+  - src/GxGDEH0213B73
+  - src/GxGDEP015OC1
+  - src/GxGDEW026T0
+  - src/GxGDEW027C44
+  - src/GxGDEW027W3
+  - src/GxGDEW029T5
+  - src/GxGDEW029Z10
+  - src/GxGDEW042T2
+  - src/GxGDEW042Z15
+  - src/GxGDEW075T7
+  - src/GxGDEW075T8
+  - src/GxGDEW075Z08
+  - src/GxGDEW075Z09
+  - src/GxGDEW0154Z04
+  - src/GxGDEW0154Z17
+  - src/GxGDEW0213I5F
+  - src/GxGDEW0213Z16
+  - src/GxGDEW0371W7
+  - src/GxGDEW0583T7
+includes:
+  - include
+libs:
+  - origin: https://github.com/mongoose-os-libs/arduino-compat
+  - origin: https://github.com/mongoose-os-libs/arduino-spi
+tags:
+  - arduino
+  - c
+  - hw
+  - docs:drivers:GxEPD
+
+manifest_version: 2017-09-29
